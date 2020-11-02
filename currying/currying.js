@@ -13,3 +13,28 @@ function add(){
 }
 console.log(add(2)(3)(4)(2))
 console.log(add(1,2,3,4))
+
+
+// ********************** Multiply 
+
+let multiply = function(x, y){
+    console.log(x);
+    console.log(y);
+    console.log(x*y);
+}
+
+let multiplyByTwo = multiply.bind(this, 2);
+multiplyByTwo(5);
+
+let multiplyByThree = multiply.bind(this, 3);
+multiplyByThree(5)
+
+/// Function clouser
+
+let multiply2 = function (x){
+    return function(y){
+        console.log(x * y);
+    }
+}
+let multiplyBy3 = multiply2(3);
+multiplyBy3(5)
