@@ -51,3 +51,11 @@ var addFour = new addTo(4);
 
 console.dir(addThree(1));
 console.dir(addFour(1));
+
+_______________________________________________________
+var add = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter}
+  })();
+
+  add()

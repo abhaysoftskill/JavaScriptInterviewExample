@@ -300,3 +300,40 @@ axios
 
 
 
+
+
+
+
+________________________ Need to update
+
+Promise.resolve('Success!')   
+.then(data => { 	 
+return data.toUpperCase()   })  .then(data => {       		console.log(data)       	   })
+
+
+
+__________________________________
+
+describe("unit"){
+
+expect("unit").toBeEqual("unit")
+}
+
+program pattern 
+function a progrraming // pure function/ 
+oops concept
+
+classical & protype 
+type couppling
+
+Async blocking
+event handling 
+
+saga / generator / event looping /
+
+
+
+{}
+
+abce.  
+
