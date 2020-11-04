@@ -7,7 +7,7 @@ console.log(2 - '2'); // 0
 let nums = [1,2,2,3];  //expected [1,2,3] without using for loop or map
 console.log(new Set(nums)) // {1,2,3} // not array
 console.log([...new Set(nums)]) // [1,2,3]  expected result
-
+ "" 0 null false undefined
 
 // *********************
 let func = function (){
