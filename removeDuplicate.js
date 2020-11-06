@@ -16,6 +16,9 @@ array.filter((item,index) => array.indexOf(item) !== index)
 
 console.log([1, 2, 2, 4, 3, 4, 5].filter((item, index, arr) => arr.indexOf(item) !== index))// [2, 4]
 
+console.log(new Set(nums)) // {1,2,3} // not array
+console.log([...new Set(nums)]) // [1,2,3]  expected result
+
 // unique Array
 console.log([1, 2, 2, 4, 3, 4, 5].filter((item, index, arr) => arr.indexOf(item) === index))
 //other

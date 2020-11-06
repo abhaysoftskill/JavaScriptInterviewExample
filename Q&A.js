@@ -2,12 +2,14 @@ console.log(2 + '2'); // 22
 //When we use + operation, it apply ither number or string, When we do NAN the concat this
 
 console.log(2 - '2'); // 0
+
+console.info(2 * '2') // 4
 // - (minus ) only apply to number
 // ************************************
 let nums = [1,2,2,3];  //expected [1,2,3] without using for loop or map
 console.log(new Set(nums)) // {1,2,3} // not array
 console.log([...new Set(nums)]) // [1,2,3]  expected result
- "" 0 null false undefined
+// False value in js "" 0 null false undefined
 
 // *********************
 let func = function (){

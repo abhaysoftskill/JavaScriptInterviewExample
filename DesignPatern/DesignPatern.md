@@ -1,3 +1,20 @@
+design pattern
+
+Soild principle in js
+
+code review process
+prime / 
+
+react & redux
+
+
+S.O.L.I.D. STANDS FOR:
+S — Single responsibility principle
+O — Open closed principle
+L — Liskov substitution principle
+I — Interface segregation principle
+D — Dependency Inversion principle
+
 ref https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 JavaScript Design Patterns
     Constructor Pattern
