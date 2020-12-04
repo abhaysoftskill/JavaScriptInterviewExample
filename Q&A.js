@@ -111,3 +111,34 @@ var arr = [[1,2], [3,4], [4,5]]
 arr.flat().filter((item, index) => temp.indexOf(item) === index)
 
 "Abhay".split('').reverse().join('')
+
+
+
+var arr = [10, 12, 15, 21];
+for (var i = 0; i < arr.length; i++) {
+  setTimeout(function() {
+    console.log('Index: ' + i + ', element: ' + arr[i]);
+  });
+}
+// Index: 4, element: undefined  //////////It prints for times
+
+for (var i = 0; i < arr.length; i++) {
+    setTimeout((function() {
+      console.log('Index: ' + i + ', element: ' + arr[i]);
+    })(i), 3000);
+  }
+
+
+//   https://medium.com/javascript-in-plain-english/5-tricky-javascript-problems-to-check-before-your-next-interview-part-1-60fdecaa59d6
+
+
+function func() {
+    abc = "Variable";
+     function abc() {
+       return("Function")
+     }
+     return abc();
+   }
+   console.log(func());
+
+//    abc is not “function”
