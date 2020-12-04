@@ -1,5 +1,5 @@
 //CallStack - Last In first OUT
-
+// https://www.javascripttutorial.net/javascript-call-stack/
 function multiply(x,y){
     return x * y;
 }
@@ -16,3 +16,13 @@ function funTwo(){
 
 funTwo();
 
+// _____________________________________________
+function a(){
+    var b = 10;
+    c();
+    function c(){
+        console.log(b)
+    }
+}
+
+a();

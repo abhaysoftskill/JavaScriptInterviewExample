@@ -105,6 +105,7 @@ console.log(val); // [1,2]
 
 const val2 = Object.keys(x)
 console.log(val2) // ["a","b"]
+ 
 
 
 var arr = [[1,2], [3,4], [4,5]]
@@ -142,3 +143,5 @@ function func() {
    console.log(func());
 
 //    abc is not “function”
+const numbers = [1,2,3,4,5]
+numbers.slice(0,size).map((d,i,a) => console.log(a[i]))
